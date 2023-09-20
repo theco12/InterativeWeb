@@ -8,11 +8,12 @@
   background: #ffc107;
   padding: 5px;
   border: 1px solid;
+  transition: 1s cubic-bezier(0.91, 0.02, 0.04, 1.08);
 }
 
 .box:hover {
-  transform: scale(2);
-  transform-origin: 30% 20%;
+  /* transform: scale(2);
+  transform-origin: 30% 20%; */
   /* transform: skew(20deg, 10deg); */
-  transition: 0.5s;
+  width: 200px;
 }
